@@ -58,7 +58,7 @@ jobs:
       - name: Build Windows Installer
         run: |
           makensis aseprite.nsi
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: Aseprite-v1.3.12-Win
           path: D:\a\aseprite-v1.3.12\aseprite-v1.3.12\Aseprite-v1.3.12.exe
